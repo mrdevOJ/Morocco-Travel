@@ -1,0 +1,50 @@
+.nav {
+    background-color: #F6F6F6;
+    padding: 10px;
+    position: sticky;
+ 
+ }
+ .nav ul li{
+ 
+     margin-right: 20px;
+ }
+ .nav ul li a { 
+ display: flex;   
+ 
+ color: black;
+ }
+ .main{
+     display: flex;
+     flex-direction: row;
+ 
+ }
+ div.aside{
+      
+  background-color: #F6F6F6;
+     width: 15%;
+     height: 680px;
+   position: sticky;
+   top: 0;
+ }
+ .article{
+     overflow: hidden;
+     width: 150%;
+ }
+ @media only screen and (max-width: 720px) {
+     .main{
+         display: flex;
+     flex-direction: column;
+     }
+     div.aside{     height: 100%;
+
+         border-right: 0px  solid black;   
+ margin-bottom: 5px;
+         width: 100%;
+         top: 0;
+     }
+     .article{
+ 
+         width: 100%;
+     }
+   }
+  

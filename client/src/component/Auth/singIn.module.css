@@ -1,0 +1,29 @@
+.body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url("../../../public/auth/back.jpg");
+    overflow: hidden;
+}
+.card{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 50px 200px 80px;
+padding: 20px;
+    font-family: roboto, arial, helvetica;
+    border-radius: 18px;
+    background: white;
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform:scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+

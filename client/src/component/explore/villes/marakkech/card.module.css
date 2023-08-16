@@ -1,0 +1,12 @@
+.image {
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+}
+.cardContainer{
+    width: 100%;
+}
+.card{
+    margin-top: 5px;
+    border: 3px solid #F6F6F6;
+}

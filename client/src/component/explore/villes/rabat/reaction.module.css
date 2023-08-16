@@ -1,0 +1,29 @@
+.cardReaction{
+    background-color:  #fcfcfc;
+    width: 100%;
+    padding: 20px ;
+    position: relative;
+
+    margin: 0px;
+}
+.cardBody{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.main{
+    border-right: 1px solid black;
+}
+.reaction{
+    margin: 5px;
+}
+.button{
+    border: transparent;
+    background-color: white;
+}
+.icon:hover{
+transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+transition: 0.5s ease;
+transform:scale(1.2);
+color: rgb(240, 0, 0);
+}

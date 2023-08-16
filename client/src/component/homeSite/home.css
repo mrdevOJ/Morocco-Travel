@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'roboto' sans-serif;
+}
+.Homecontainer{
+  width: 100%;
+  height: 100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url();
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right:8%;
+  box-sizing: border-box;
+
+}
+
+.Homerow{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+.MoroccoT{
+  color:#fff !important;font-size:100px;
+}
+
+.Homebutton{
+  width: 180px;
+  height: 30px;
+  color:#000 ;
+  font-size: 30px 0;
+  background: #fff;
+  border: 0;
+  border-radius:20px;
+  outline: none;
+  margin-top: 12px;
+}
+
+@media only screen and (max-width: 720px) {
+  .MoroccoT{
+    color:#fff !important;font-size:85px;
+  }
+}
+
